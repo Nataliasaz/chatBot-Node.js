@@ -6,7 +6,6 @@ const token = '862966309:AAGppu4x3M0WW0azkF21jmsXQds9cNERRUE';
 //создать бота
 const bot = new TelegramBot(token, {polling: true});
 
-
 bot.on('message', (msg) => {
   const chatId = msg.chat.id;
   //const first_name = msg.chat.first_name;
